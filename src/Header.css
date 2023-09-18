@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+}
+body {
+    margin:0;
+
+}
+.Titulo15 {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    /* max-width: max-content; */
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+span {
+
+    max-width: max-content;
+}
+.Header-header {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    background-color: #00476B;
+    align-items: center;
+}
+.Logo {
+    transition: .3s all;
+
+width: 10%;
+height: 10%;
+}
+.Logo:hover {
+    transform: scale(1.15);
+}
+.Lista-header {
+    font-size: 40px;
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+}
+    .Item-lista-header {
+    transition: all .3s ease;
+
+}
+.Item-lista-header:hover {
+    transform: scale(1.2);
+
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
