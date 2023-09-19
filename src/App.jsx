@@ -1,11 +1,13 @@
 import './App.css';
 // import Contador from './Contador';
 import Header from './Header';
-import {Producto} from './Producto';
+// import {Producto} from './Producto';
 import Random from './Random';
 import Tareas from './Tareas';
-import Reloj from './Reloj';
+// import Reloj from './Reloj';
+import Cronometro from './Cronometro';
 import { Ternariosymap } from './Ternariosmap';
+import RelojCronometro from './RelojCronometro';
 export default function App() {
 
 
@@ -32,7 +34,8 @@ export default function App() {
       {/* <Producto  productos={productos}/> */}
       </div>
       <Random/>
-      <Reloj/>
+      <RelojCronometro/>
+      {/* <Cronometro/> */}
       {/* <Contador/> */}
       <Ternariosymap/>
       <Tareas/>
