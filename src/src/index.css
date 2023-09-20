@@ -1,0 +1,12 @@
+@font-face {
+  font-family: myFirstFont;
+  src:url(font/GothiksCondensed-Bold.ttf);
+}
+body {
+  margin: 0;
+  font-family: myFirstFont;
+}
+
+code {
+    font-family: myFirstFont;
+}

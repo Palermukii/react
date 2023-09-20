@@ -1,0 +1,24 @@
+@font-face {
+  font-family: myFirstFont;
+  src:url(font/GothiksCondensed-Bold.ttf);
+}
+body, html {
+  font-family: myFirstFont;
+  font-size: 25px;
+}
+code {
+  font-family: myFirstFont;
+
+}
+.App {
+  text-align: center;
+}
+
+
+
+.Papu {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
